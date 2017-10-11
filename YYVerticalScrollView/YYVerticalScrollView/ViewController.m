@@ -46,7 +46,7 @@
                                 };
     
     
-    for (int i = 0; i < ((NSArray *)dataDicts[@"title"]).count-1; i++) {
+    for (int i = 0; i < ((NSArray *)dataDicts[@"title"]).count; i++) {
         YYVerticalScrollModel *model = [[YYVerticalScrollModel alloc] init];
         model.title = [(NSArray *)dataDicts[@"title"] objectAtIndex:i];
         model.type = [(NSArray *)dataDicts[@"type"] objectAtIndex:i];
